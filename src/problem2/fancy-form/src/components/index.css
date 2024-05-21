@@ -1,0 +1,20 @@
+.input-currency {
+    width: 400px;
+    height: 35px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.input-value {
+    width: 400px;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 0px 0px 10px 10px;
+}
+
+@media screen and (max-width: 900px){
+    .input-swap {
+        display: flex;
+        justify-content: center;
+        width: 400px;
+    }
+}
